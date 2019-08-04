@@ -1,0 +1,25 @@
+In this project all Contruction releted Management like maintain labershit of varias sites as well as supervisors and customer ,specific sites and payments details etc etc
+In this project 3 main entity are present
+1.Supervisor
+2.Contractor
+3.Customer
+
+1.Supervisor
+	1.Supervisor which is manage labershit .ln Project only Supervisor has authority to inser data. Once data save in database it is not possible to modify
+	if supervisor wish to modify data only before save in database only.
+
+	2.Supervisor can be retrieve data using sitename or date or both.
+
+2.Contractor
+	1.Contractor is admin of overall System
+	2.he can be retrive data of any site,he can delete data but cannot be modify data, he also deside rates of labor,worker,watchman and other materials also
+	3.He authorise to Insert new cutomer and supervisor
+	4.he also authorise to delete supervisor
+	5.he also authorise th delete customer but without there password he cann't do anything
+	6.in case of supervisor deletion its not need there password
+	
+3.Customer
+	1.Customer can be able to check or retrive all site releted information using sitename or sitename and date
+
+#when user is inserted then userid and password generate automatically after login user must be change this password
+#in any operation data cannot be save without user Conformation

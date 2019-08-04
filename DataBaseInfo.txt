@@ -1,0 +1,13 @@
+
+create table login(userid int,password varchar2(30),role varchar2(30),sitename varchar2(30))//login table
+insert into login values(1000,'123','contractor','-');
+insert into login values(1001,'456','supervisor','wagholi');
+insert into login values(1002,'666','customer','wagholi');
+
+create table wagholi(date_ varchar2(30),no_of_labor int,laber_amt int,no_of_worker int,worker_amt int,no_of_watchman int,watchman_amt int,total_amt int)//not complesary to crete its auto creat
+
+create table material(date_ varchar2(30),cement_count int,cement_amt int,sand_count int,sand_amt,brick_count int,brick_amt int,total_amount int)//material table
+
+create table rate(labor int,worker int,cement int,sand int,brick int,watchman int)//rate table
+
+insert into rate values(200,400,90,350,3,700);//rates 
